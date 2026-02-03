@@ -1,0 +1,91 @@
+2026-01-30 20:02:49 INFO  com.excel.ExcelApplication:50 - Starting ExcelApplication using Java 17.0.12 with PID 93089 (/Users/ayushgupta/Downloads/Excel Upload/target/classes started by ayushgupta in /Users/ayushgupta/Downloads/Excel Upload)
+2026-01-30 20:02:49 INFO  com.excel.ExcelApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2026-01-30 20:02:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:139 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-30 20:02:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:208 - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2026-01-30 20:02:49 INFO  o.s.b.w.e.tomcat.TomcatWebServer:109 - Tomcat initialized with port 8080 (http)
+2026-01-30 20:02:49 INFO  o.a.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2026-01-30 20:02:49 INFO  o.a.catalina.core.StandardService:173 - Starting service [Tomcat]
+2026-01-30 20:02:49 INFO  o.a.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-01-30 20:02:49 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2026-01-30 20:02:49 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 415 ms
+2026-01-30 20:02:49 INFO  o.h.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-30 20:02:49 INFO  org.hibernate.Version:44 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2026-01-30 20:02:49 INFO  o.h.c.i.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2026-01-30 20:02:49 INFO  o.s.o.j.p.SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-30 20:02:49 INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2026-01-30 20:02:50 INFO  com.zaxxer.hikari.pool.HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41be8db9
+2026-01-30 20:02:50 INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2026-01-30 20:02:50 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-30 20:02:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-30 20:02:50 INFO  com.excel.ExcelApplication:45 - === WMS EXCEL FILE PROCESSOR STARTED | LOGGING INITIALIZED ===
+2026-01-30 20:02:50 INFO  com.excel.ExcelApplication:51 - Apache POI byte array limit increased
+2026-01-30 20:02:50 INFO  o.s.d.j.r.query.QueryEnhancerFactory:49 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-30 20:02:50 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-30 20:02:51 INFO  o.a.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2026-01-30 20:02:51 INFO  o.s.b.w.e.tomcat.TomcatWebServer:241 - Tomcat started on port 8080 (http) with context path ''
+2026-01-30 20:02:51 INFO  com.excel.ExcelApplication:56 - Started ExcelApplication in 1.848 seconds (process running for 2.153)
+2026-01-30 20:03:01 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:03:01 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:04:01 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:04:01 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:05:01 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:05:01 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:09:55 WARN  com.zaxxer.hikari.pool.HikariPool:804 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m34s792ms).
+2026-01-30 20:10:05 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:10:05 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:24:37 WARN  com.zaxxer.hikari.pool.HikariPool:804 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m42s46ms).
+2026-01-30 20:25:17 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:25:17 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:32:01 WARN  com.zaxxer.hikari.pool.HikariPool:804 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m54s298ms).
+2026-01-30 20:32:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:32:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:33:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:33:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:34:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:34:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:35:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:35:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:36:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:36:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:37:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:37:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:38:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:38:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:39:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:39:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:40:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:40:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:41:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:41:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:42:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:42:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:43:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:43:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:44:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:44:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:45:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:45:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:46:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:46:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:47:30 INFO  o.a.c.c.C.[Tomcat].[localhost].[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-30 20:47:30 INFO  o.s.web.servlet.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2026-01-30 20:47:30 INFO  o.s.web.servlet.DispatcherServlet:554 - Completed initialization in 10 ms
+2026-01-30 20:47:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:47:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:48:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:48:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:49:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:49:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:50:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:50:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:51:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:51:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:52:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:52:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:53:42 INFO  com.excel.service.FileUploader:92 - Files processing started !
+2026-01-30 20:53:42 INFO  com.excel.service.FileUploader:100 - No files found in directory: C:/excel/input
+2026-01-30 20:54:36 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2026-01-30 20:54:36 INFO  o.a.coyote.http11.Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8080"]
+2026-01-30 20:54:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-30 20:54:36 INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2026-01-30 20:54:36 INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

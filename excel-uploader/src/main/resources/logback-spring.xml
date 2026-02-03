@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- ✅ Correct log folder -->
+    <property name="LOG_PATH" value="/Users/ayushgupta/Documents/excel/logs"/>
+
+    <property name="LOG_FILE" value="${LOG_PATH}/ExcelUploader.log"/>
+
+    <!-- ================= CONSOLE ================= -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36}:%line - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- ================= FILE ================= -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOG_PATH}/ExcelUploader.%d{yyyy-MM-dd}.%i.log
+            </fileNamePattern>
+            <maxHistory>15</maxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>5MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36}:%line - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!-- ================= ROOT ================= -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>
